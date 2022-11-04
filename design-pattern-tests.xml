@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Design Pattern Tests" verbose="1" parallel="tests" thread-count="4">
+    <test name="Strategy Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="strategy.StrategyTest"/>
+        </classes>
+    </test>
+</suite>
