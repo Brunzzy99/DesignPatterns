@@ -27,7 +27,7 @@ public class ObserverTest {
         assertEquals(observer3.getPrices(), testString3);
     }
 
-    @Test
+    @Test(dependsOnMethods = "testObservers")
     public void testObserversAfterChange() {
         stockGrabber.setApplePrice(2.00);
         String testString1 = "1\nIBM: 98.0\nApple: 2.0\nGoogle: 100.0";
@@ -38,7 +38,7 @@ public class ObserverTest {
         assertEquals(observer3.getPrices(), testString3);
     }
 
-    @Test
+    @Test(dependsOnMethods = "testObserversAfterChange")
     public void testUnregister() {
         stockGrabber.unregister(observer3);
         ArrayList<Observer> observers = stockGrabber.getObservers();

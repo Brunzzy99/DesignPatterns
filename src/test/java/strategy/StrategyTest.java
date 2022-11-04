@@ -17,13 +17,13 @@ public class StrategyTest {
         assert bird.canItFly instanceof CanFly;
     }
 
-    @Test
+    @Test (dependsOnMethods = "testDefaultInstancesOfCanItFly")
     public void testDoesItHaveFlyingAbility() {
         assert dog.doesItHaveFlyingAbility().equals("Can't fly");
         assert bird.doesItHaveFlyingAbility().equals("Can fly");
     }
 
-    @Test
+    @Test(dependsOnMethods = "testDoesItHaveFlyingAbility")
     public void testChangingOfCanItFlyInstance() {
         dog.setFlyingAbility(new CanFly());
         bird.setFlyingAbility(new CannotFly());
@@ -35,7 +35,7 @@ public class StrategyTest {
         assert bird.canItFly instanceof CanFly;
     }
 
-    @Test
+    @Test(dependsOnMethods = "testChangingOfCanItFlyInstance")
     public void testStrategyPatternWithLambda() {
         Flies cannotFly = () -> "Can't fly";
         Flies canFly = () -> "Can fly";

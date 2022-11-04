@@ -6,4 +6,9 @@
             <class name="strategy.StrategyTest"/>
         </classes>
     </test>
+    <test name="Observer Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="observer.ObserverTest"/>
+        </classes>
+    </test>
 </suite>
