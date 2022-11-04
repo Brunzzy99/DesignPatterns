@@ -1,0 +1,16 @@
+= OBSERVER PATTERN
+
+Observer is a behavioral design pattern.
+It specifies communication between objects: *observable* and *observers*.
+An observable is an object which notifies observers about the changes in its state.
+
+=== USES OF OBSERVER PATTERN:
+* When you need many other objects to receive an update when another object changes
+* Loose coupling (observable doesn't need to know anything about the observers)
+
+=== NEGATIVE SIDES OF OBSERVER PATTERN
+* Observer may send updates that don't matter to the observer
+
+=== References
+* https://www.youtube.com/watch?v=wiQdrH2YpT4[Youtube video]
+* https://www.baeldung.com/java-observer-pattern[Baeldung article]
