@@ -1,0 +1,9 @@
+= DESIGN PATTERNS
+
+== About
+
+Repository is used for learning of Design Patterns in Java.
+Repository has examples of usage for every Design Pattern and unit tests for each one.
+
+== Author
+Bruno Mihovilić
