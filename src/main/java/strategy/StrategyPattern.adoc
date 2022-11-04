@@ -1,6 +1,6 @@
 = STRATEGY PATTERN
 
-== USES OF STRATEGY PATTERN:
+=== USES OF STRATEGY PATTERN:
 * When you want to define a class that will have one behavior that is similar to other behaviors in a list
 * When you need to use one of several behaviors dynamically
 * Often reduces long list of conditionals
@@ -8,9 +8,9 @@
 * Keeps class changes from forcing other class changes
 * Can hide complicated/secret code from user
 
-== NEGATIVE SIDES OF STRATEGY PATTERN
+=== NEGATIVE SIDES OF STRATEGY PATTERN
 * Increased number of Objects/Classes
 
-== References
+=== References
 * https://www.youtube.com/watch?v=-NCgRD9-C6o[Youtube video]
 * https://www.baeldung.com/java-strategy-pattern[Baeldung article]
