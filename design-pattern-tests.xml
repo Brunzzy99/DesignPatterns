@@ -11,4 +11,9 @@
             <class name="observer.ObserverTest"/>
         </classes>
     </test>
+    <test name="Factory Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="factory.FactoryTest"/>
+        </classes>
+    </test>
 </suite>

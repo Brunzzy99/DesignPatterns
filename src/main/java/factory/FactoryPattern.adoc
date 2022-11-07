@@ -1,0 +1,17 @@
+= FACTORY PATTERN
+
+A creational design pattern that is responsible for creating objects when it is called.
+A factory is a class that creates objects of a prototype class, aka interface, from a method call.
+
+
+=== USES OF FACTORY PATTERN:
+* When a method returns one of several possible classes that share a common super class
+* When you don't know ahead of time what class object you need
+* When all the potential classes are in the same subclass hierarchy
+* To centralize class selection code
+* When you don't want the user to have to know every subclass
+* To encapsulate object creation
+
+=== References
+* https://www.youtube.com/watch?v=ub0DXaeV6hA[Youtube video]
+* https://www.baeldung.com/java-factory-pattern-generics[Baeldung article]
