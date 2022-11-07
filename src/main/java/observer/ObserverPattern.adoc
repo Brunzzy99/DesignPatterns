@@ -6,7 +6,6 @@ An observable is an object which notifies observers about the changes in its sta
 
 === USES OF OBSERVER PATTERN:
 * When you need many other objects to receive an update when another object changes
-
 * Loose coupling (observable doesn't need to know anything about the observers)
 
 === NEGATIVE SIDES OF OBSERVER PATTERN
