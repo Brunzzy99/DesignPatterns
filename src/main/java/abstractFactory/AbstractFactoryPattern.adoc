@@ -1,0 +1,14 @@
+= ABSTRACT FACTORY PATTERN
+
+Provides an interface for creating families of related or dependent objects
+without specifying their concrete classes. In other words, this model allows us to create
+objects that follow a general pattern.
+
+=== USES OF ABSTRACT FACTORY PATTERN:
+* When you have many objects that can be added or changed dynamically during runtime
+* The system consist of multiple families of objects, and there families are designed to be used together
+* The client is independent of how we create and compose the objects in the system
+
+=== References
+* https://www.youtube.com/watch?v=xbjAsdAK4xQ[Youtube video]
+* https://www.baeldung.com/java-abstract-factory-pattern[Baeldung article]

@@ -16,4 +16,9 @@
             <class name="factory.FactoryTest"/>
         </classes>
     </test>
+    <test name="Abstract Factory Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="abstractFactory.AbstractFactoryTest"/>
+        </classes>
+    </test>
 </suite>
