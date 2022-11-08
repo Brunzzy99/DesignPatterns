@@ -21,4 +21,9 @@
             <class name="abstractFactory.AbstractFactoryTest"/>
         </classes>
     </test>
+    <test name="Singleton Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="singleton.SingletonTest"/>
+        </classes>
+    </test>
 </suite>
