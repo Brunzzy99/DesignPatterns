@@ -1,0 +1,13 @@
+= SINGLETON PATTERN
+
+=== USES OF SINGLETON PATTERN:
+* When you want to eliminate the option of instantiating more than one object.
+
+=== NEGATIVE SIDES OF SINGLETON PATTERN
+* We distinguish two types of issues with singletons:
+    ** existential (Do we need a singleton?)
+    ** Implementation (Do we implement it properly?)
+
+=== References
+* https://www.youtube.com/watch?v=NZaXM67fxbs[Youtube video]
+* https://www.baeldung.com/java-singleton[Baeldung article]
