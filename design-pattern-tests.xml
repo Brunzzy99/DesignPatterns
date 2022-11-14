@@ -26,4 +26,9 @@
             <class name="singleton.SingletonTest"/>
         </classes>
     </test>
+    <test name="Builder Design Pattern Test" parallel="methods" thread-count="3">
+        <classes>
+            <class name="builder.BuilderTest"/>
+        </classes>
+    </test>
 </suite>

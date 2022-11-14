@@ -1,0 +1,14 @@
+= BUILDER PATTERN
+
+Creational pattern designed to deal with the construction of comparatively complex objects.
+When the complexity of creating object increases, the Builder pattern can separate out the instantiation process by using another object (a builder) to construct the object.
+This builder can then be used to create many other similar representations using a simple step-by-step approach.
+
+=== USES OF BUILDER PATTERN:
+* When the process involved in creating an object is extremely complex, with lots of mandatory and optional parameters
+* When an increase in the number of constructor parameters leads to a large list of constructors
+* When client expects different representations for the object that's constructed
+
+=== References
+* https://www.youtube.com/watch?v=9XnsOpjclUg[Youtube video]
+* https://www.baeldung.com/creational-design-patterns[Baeldung article]
