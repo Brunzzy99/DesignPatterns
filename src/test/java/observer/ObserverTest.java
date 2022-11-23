@@ -1,13 +1,10 @@
 package observer;
 
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 
 import static org.testng.Assert.assertEquals;
 
-@Slf4j
 public class ObserverTest {
     StockGrabber stockGrabber = new StockGrabber();
     StockObserver observer1 = new StockObserver(stockGrabber);

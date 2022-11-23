@@ -1,12 +1,10 @@
 package strategy;
 
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 import strategy.flies.CanFly;
 import strategy.flies.CannotFly;
 import strategy.flies.Flies;
 
-@Slf4j
 public class StrategyTest {
     private final Animal dog = new Dog();
     private final Animal bird = new Bird();

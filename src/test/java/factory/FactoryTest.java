@@ -1,11 +1,9 @@
 package factory;
 
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-@Slf4j
 public class FactoryTest {
     private final EnemyShipFactory shipFactory = new EnemyShipFactory();
 

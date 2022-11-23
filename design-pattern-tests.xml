@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Design Pattern Tests" verbose="1" parallel="tests" thread-count="4">
-    <test name="Strategy Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Strategy Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="strategy.StrategyTest"/>
         </classes>
     </test>
-    <test name="Observer Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Observer Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="observer.ObserverTest"/>
         </classes>
     </test>
-    <test name="Factory Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Factory Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="factory.FactoryTest"/>
         </classes>
     </test>
-    <test name="Abstract Factory Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Abstract Factory Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="abstractFactory.AbstractFactoryTest"/>
         </classes>
     </test>
-    <test name="Singleton Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Singleton Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="singleton.SingletonTest"/>
         </classes>
     </test>
-    <test name="Builder Design Pattern Test" parallel="methods" thread-count="3">
+    <test name="Builder Design Pattern Test" parallel="methods" thread-count="1">
         <classes>
             <class name="builder.BuilderTest"/>
+        </classes>
+    </test>
+    <test name="Prototype Design Pattern Test" parallel="methods" thread-count="1">
+        <classes>
+            <class name="prototype.PrototypeTest"/>
         </classes>
     </test>
 </suite>
