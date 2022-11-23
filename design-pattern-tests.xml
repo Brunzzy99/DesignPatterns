@@ -36,4 +36,9 @@
             <class name="prototype.PrototypeTest"/>
         </classes>
     </test>
+    <test name="Decorator Design Pattern Test" parallel="methods" thread-count="1">
+        <classes>
+            <class name="decorator.DecoratorTest"/>
+        </classes>
+    </test>
 </suite>
