@@ -1,0 +1,16 @@
+= DECORATOR PATTERN
+
+A Decorator provides an enhanced interface to the original object.
+In the implementation of this pattern, we prefer composition over an inheritance – so that we can reduce the overhead of subclassing again and again for each decorating element.
+The recursion involved with this design can be used to decorate our object as many times as we require.
+
+=== USES OF DECORATOR PATTERN:
+* To attach additional responsibilities to an object either statically or dynamically.
+* Allows you to modify an object dynamically.
+* When you want the capabilities of inheritance with subclasses, but you need to add functionality at run time.
+* Simplifies code because you add functionality using many simple classes.
+* When you want to extend old code with new code.
+
+=== References
+* https://www.youtube.com/watch?v=j40kRwSm4VE[Youtube video]
+* https://www.baeldung.com/java-decorator-pattern[Baeldung article]
