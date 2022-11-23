@@ -1,9 +1,7 @@
 package singleton;
 
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 
-@Slf4j
 public class SingletonTest {
     @Test
     public void testClassSingleton() {
@@ -22,6 +20,5 @@ public class SingletonTest {
         EnumSingleton enumSingleton2 = EnumSingleton.INSTANCE.getInstance();
         enumSingleton2.setInfo("New enum info");
         assert enumSingleton1.getInfo().equals("New enum info");
-        assert enumSingleton2.getInfo().equals("New enum info");
     }
 }

@@ -1,0 +1,13 @@
+= PROTOTYPE PATTERN
+
+A creational design pattern.
+The Prototype pattern is generally used when we have an instance of the class (prototype), and we'd like to create new objects by just copying the prototype.
+
+=== USES OF PROTOTYPE PATTERN:
+* When there are numerous potential classes that you want to only use if needed at runtime
+* Reduces the need for creating subclasses
+
+
+=== References
+* https://www.youtube.com/watch?v=AFbZhRL0Uz8[Youtube video]
+* https://www.baeldung.com/java-pattern-prototype[Baeldung article]

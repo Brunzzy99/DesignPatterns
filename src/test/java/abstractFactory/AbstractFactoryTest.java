@@ -6,10 +6,8 @@ import abstractFactory.animal.Duck;
 import abstractFactory.color.Black;
 import abstractFactory.color.Color;
 import abstractFactory.color.White;
-import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.Test;
 
-@Slf4j
 public class AbstractFactoryTest {
     @Test
     public void testFactoryProvider() {
