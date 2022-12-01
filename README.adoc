@@ -5,5 +5,9 @@
 Repository is used for learning of Design Patterns in Java.
 Repository has examples of usage for every Design Pattern and unit tests for each one.
 
+== Useful Links
+https://www.baeldung.com/design-patterns-series[Baeldung]
+https://www.youtube.com/playlist?list=PLF206E906175C7E07[Youtube]
+
 == Author
 Bruno Mihovilić

@@ -41,4 +41,9 @@
             <class name="decorator.DecoratorTest"/>
         </classes>
     </test>
+    <test name="Command Design Pattern Test" parallel="methods" thread-count="1">
+        <classes>
+            <class name="command.CommandTest"/>
+        </classes>
+    </test>
 </suite>
